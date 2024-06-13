@@ -1,0 +1,11 @@
+name: rcm-stac-env
+
+dependencies:
+  - python=3.10
+  - xarray
+  - rioxarray
+  - stackstac
+  - pystac-client
+  - geopandas
+  - shapely
+  - matplotlib
