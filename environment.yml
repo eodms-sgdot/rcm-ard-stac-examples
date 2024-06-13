@@ -1,5 +1,8 @@
 name: rcm-stac-env
 
+channels:
+ - conda-forge
+
 dependencies:
   - python=3.10
   - xarray
@@ -9,3 +12,4 @@ dependencies:
   - geopandas
   - shapely
   - matplotlib
+  - jupyter
