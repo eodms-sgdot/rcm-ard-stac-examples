@@ -39,7 +39,7 @@ The example notebooks have been tested using Python >= 3.10.
 
 2. Install required Python packages:
 	```bash
-	> cd rcm-arc-stac-examples
+	> cd rcm-ard-stac-examples
     > pip install -r requirements.txt
 	```
 
