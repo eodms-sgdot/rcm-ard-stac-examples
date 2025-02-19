@@ -3,9 +3,14 @@
 
 ## Overview
 This repository contains the following example workflows for accessing and manipulating RCM-CEOS-ARD data products from the EODMS STAC Catalog in Jupyter Notebook format:
-- **rcm_ard_stac_example.ipynb** - instructions on how to access data from the STAC catalog by identifying specific RCM scenes based on a datetime range and spatial bounding box.
-- **mchi_decomposition.ipynb** - separation of an RCM-CARD image into surface (or single/odd) bounce, volume, and double (or even) bounce  scattering components.
-- **coordinate_transformation.ipynb** - examples of how to read data from the STAC directly into various coordinate reference systems, along with reprojecting loaded data to match other raster arrays.
+- [rcm_ard_stac_example.ipynb](https://github.com/eodms-sgdot/rcm-ard-stac-examples/blob/main/examples/rcm_ard_stac_example.ipynb) - instructions on how to access data from the STAC catalog by identifying specific RCM scenes based on a datetime range and spatial bounding box.
+- [mchi_decomposition.ipynb](https://github.com/eodms-sgdot/rcm-ard-stac-examples/blob/main/examples/mchi_decomposition.ipynb) - separation of an RCM-CARD image into surface (or single/odd) bounce, volume, and double (or even) bounce  scattering components.
+- [coordinate_transformations.ipynb](https://github.com/eodms-sgdot/rcm-ard-stac-examples/blob/main/examples/coordinate_transformations.ipynb) - examples of how to read data from the STAC directly into various coordinate reference systems, along with reprojecting loaded data to match other raster arrays.
+
+### Links
+- [Registry of Open Data on AWS - RCM CEOS Analysis Ready Data](https://registry.opendata.aws/rcm-ceos-ard/)
+- [rcm-ard collection on EODMS STAC API](https://www.eodms-sgdot.nrcan-rncan.gc.ca/stac/collections/rcm-ard)
+- [STAC Browser Overview - RADARSAT Constellation Mission, CEOS-ARD](https://radiantearth.github.io/stac-browser/#/external/www.eodms-sgdot.nrcan-rncan.gc.ca/stac/collections/rcm-ard?.language=en)
 
 ## Requirements
 
@@ -24,3 +29,54 @@ The example notebooks have been tested using Python >= 3.10.
 | pyproj | Used to transform coordinate systems | https://pypi.org/project/pyproj/ |
 | numpy | Used to perform mathematical operations on data arrays | https://pypi.org/project/numpy/ |
 | matplotlib | Used to visualize RCM-CARD products after reading from STAC | https://pypi.org/project/matplotlib/ |
+
+## Setup
+
+1. In a terminal window, clone the repository:
+	```bash
+	> git clone https://github.com/eodms-sgdot/rcm-ard-stac-examples.git
+	```
+
+2. Install required Python packages:
+	```bash
+	> cd rcm-arc-stac-examples
+    > pip install -r requirements.txt
+	```
+
+3. Open a Jupyterlab window in your default browser with:
+	```bash
+	> jupyter lab
+	```
+
+
+More information on Project Jupyter and working with computational notebooks in JupyterLab is available at https://jupyterlab.readthedocs.io/en/latest/
+
+
+## Contact
+
+If you have any questions or require support, please contact the EODMS Support Team at eodms-sgdot@nrcan-rncan.gc.ca.
+
+## License
+
+MIT License
+
+Copyright (c) His Majesty the King in Right of Canada, as 
+represented by the Minister of Natural Resources, 2024
+
+Permission is hereby granted, free of charge, to any person obtaining a 
+copy of this software and associated documentation files (the "Software"), 
+to deal in the Software without restriction, including without limitation 
+the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+and/or sell copies of the Software, and to permit persons to whom the 
+Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in 
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING 
+FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER 
+DEALINGS IN THE SOFTWARE.
