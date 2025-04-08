@@ -2,7 +2,7 @@
 
 
 ## Overview
-This repository contains the following example workflows for accessing and manipulating RCM-CEOS-ARD data products from the EODMS STAC Catalog in Jupyter Notebook format:
+This repository contains the following example workflows for accessing and manipulating RCM-CEOS-ARD data products from the EODMS STAC Catalog in JupyterLab Python Notebooks:
 - [rcm_ard_stac_example.ipynb](https://github.com/eodms-sgdot/rcm-ard-stac-examples/blob/main/examples/rcm_ard_stac_example.ipynb) - instructions on how to access data from the STAC catalog by identifying specific RCM scenes based on a datetime range and spatial bounding box.
 - [mchi_decomposition.ipynb](https://github.com/eodms-sgdot/rcm-ard-stac-examples/blob/main/examples/mchi_decomposition.ipynb) - separation of an RCM-CARD image into surface (or single/odd) bounce, volume, and double (or even) bounce  scattering components.
 - [coordinate_transformations.ipynb](https://github.com/eodms-sgdot/rcm-ard-stac-examples/blob/main/examples/coordinate_transformations.ipynb) - examples of how to read data from the STAC directly into various coordinate reference systems, along with reprojecting loaded data to match other raster arrays.
@@ -61,7 +61,7 @@ If you have any questions or require support, please contact the EODMS Support T
 MIT License
 
 Copyright (c) His Majesty the King in Right of Canada, as 
-represented by the Minister of Natural Resources, 2024
+represented by the Minister of Natural Resources, 2025
 
 Permission is hereby granted, free of charge, to any person obtaining a 
 copy of this software and associated documentation files (the "Software"), 
