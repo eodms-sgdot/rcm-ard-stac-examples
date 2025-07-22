@@ -15,7 +15,23 @@ This repository contains the following example workflows for accessing and manip
 ## Requirements
 
 ### Python
-The example notebooks have been tested using Python >= 3.10.
+The example notebooks have been tested using Python >= 3.10. To avoid conflicts with package versions it is recommended to create a new virtual environment specific to the repository with `venv` or `conda`.
+
+Using `venv`:
+https://docs.python.org/3/library/venv.html
+
+```bash
+> python3.10 -m venv .venv
+> source .venv/bin/activate
+```
+
+Using `conda`:
+https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html#creating-environments
+```bash
+> conda create -n rcmenv python=3.10
+> conda activate rcmenv
+```
+
 
 ### Python Packages
 | Package Name    | Use | URL    |
@@ -32,7 +48,7 @@ The example notebooks have been tested using Python >= 3.10.
 
 ## Setup
 
-1. In a terminal window, clone the repository:
+1. In a terminal window, clone the repository into your virtual environment. Installation into your system's base Python environment is not recommended:
 	```bash
 	> git clone https://github.com/eodms-sgdot/rcm-ard-stac-examples.git
 	```
