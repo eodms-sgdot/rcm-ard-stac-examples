@@ -21,8 +21,8 @@ Using `venv`:
 https://docs.python.org/3/library/venv.html
 
 ```bash
-> python3.10 -m venv .venv
-> source .venv/bin/activate
+> python3.10 -m venv .rcmenv
+> source .rcmenv/bin/activate
 ```
 
 Using `conda`:
