@@ -1,6 +1,6 @@
 # rcm-ard-stac-examples
 
-[français](https://github.com/eodms-sgdot/rcm-ard-stac-examples/tree/main?tab=readme-ov-file#apercu)
+[français](https://github.com/eodms-sgdot/rcm-ard-stac-examples/tree/main?tab=readme-ov-file#aper%C3%A7u)
 
 ## Overview
 This repository contains the following example workflows for accessing and manipulating analysis-ready data (ARD) products based on RADARSAT Constellation Mission (RCM) imagery from NRCan's Earth Observation Data Management System (EODMS) SpatioTemporal Asset Catalog (STAC) in JupyterLab Python Notebooks:
