@@ -103,7 +103,7 @@ DEALINGS IN THE SOFTWARE.
 Ce dépôt contient les exemples de flux de travail suivants, utilisant le langage Python et les "Jupyter notebooks ", permettant d’accéder et de manipuler les données prêtes à l'analyse (DPA) à partir des images de la mission de la Constellation RADARSAT (MCR), issues du catalogue STAC (Spatio-Temporal Asset Catalog) du système de gestion des données d'observation de la Terre (SGDOT) de RNCan :
 
 - [rcm_ard_stac_example.ipynb](https://github.com/eodms-sgdot/rcm-ard-stac-examples/blob/main/examples/rcm_ard_stac_example.ipynb) - instructions pour accéder aux données MCR-DPA du catalogue STAC  par l’identification de scènes de la MCR selon une sélection  de plage de dates et d’une emprise géométrique minimale *(bounding box)*.
-- [mchi_decomposition.ipynb](https://github.com/eodms-sgdot/rcm-ard-stac-examples/blob/main/examples/mchi_decomposition.ipynb) - – décomposition  d’une image en polarimétrie compacte de  de la MCR-DPA entre ses composantes de diffusion de surface (ou bond unique/impairs), volumique et double rebond (ou bond pairs). 
+- [mchi_decomposition.ipynb](https://github.com/eodms-sgdot/rcm-ard-stac-examples/blob/main/examples/mchi_decomposition.ipynb) - décomposition  d’une image en polarimétrie compacte de  de la MCR-DPA entre ses composantes de diffusion de surface (ou bond unique/impairs), volumique et double rebond (ou bond pairs). 
 - [coordinate_transformations.ipynb](https://github.com/eodms-sgdot/rcm-ard-stac-examples/blob/main/examples/coordinate_transformations.ipynb) - exemples de lecture de données depuis le catalogue STAC dans divers systèmes de référence de coordonnées, suivis de leur reprojection pour assurer la compatibilité avec d’autres rasters déjà en mémoire. 
 
 ### Liens
