@@ -10,4 +10,4 @@ matplotlib>=3.10.0
 rich>=14.0.0
 contextily>=1.7.0
 boto3>=1.42.4
-eodms_dds @ git+https://github.com/eodms-sgdot/py-eodms-dds.git
+py-eodms-dds @ git+https://github.com/eodms-sgdot/py-eodms-dds.git
