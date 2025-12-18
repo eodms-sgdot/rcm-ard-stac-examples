@@ -34,6 +34,10 @@ https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html#c
 > conda activate rcmenv
 ```
 
+### Git
+Git is required to clone this repository and install the `eodms_dds` Python package, which is installed directly from its GitHub repository rather than PyPI.
+- [Git installation instructions](https://git-scm.com/install/)
+
 
 ### Python Packages
 | Package Name    | Use | URL    |
@@ -47,6 +51,9 @@ https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html#c
 | pyproj | Used to transform coordinate systems | https://pypi.org/project/pyproj/ |
 | numpy | Used to perform mathematical operations on data arrays | https://pypi.org/project/numpy/ |
 | matplotlib | Used to visualize RCM-ARD products after reading from STAC | https://pypi.org/project/matplotlib/ |
+| contextily | Used to load tile basemaps from the internet | https://pypi.org/project/contextily/ |
+| boto3 | Used to access files on AWS S3 cloud storage | https://pypi.org/project/boto3/ |
+| py-eodms-dds | Used for EODMS user authentication and data delivery | https://github.com/eodms-sgdot/py-eodms-dds/ |
 
 ## Setup
 
@@ -134,6 +141,11 @@ https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html#c
 > conda activate rcmenv
 ```
 
+### Git
+Git est requis pour cloner ce depot et pour installer le paquet `eodms_dds`, qui est installé directement depuis son dépôt GitHub plutôt que depuis PyPI.
+- [Instructions d’installation de Git](https://git-scm.com/install/)
+
+
 ### Paquets Python
 | Nom du paquet | Utilisation | URL    |
 | -------- | ------- | ------ |
@@ -146,8 +158,11 @@ https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html#c
 | pyproj | Utilisé pour transformer les systèmes de coordonnées | https://pypi.org/project/pyproj/ |
 | numpy | Utilisé pour effectuer des opérations mathématiques sur des tableaux de données matricielles | https://pypi.org/project/numpy/ |
 | matplotlib | Utilisé pour visualiser les données  MCR- DPA après leur lecture depuis le  catalogue STAC | https://pypi.org/project/matplotlib/ |
+| contextily | Utilisé pour charger des fonds de carte tuilés depuis l'Internet | https://pypi.org/project/contextily/ |
+| boto3 | Utilisé pour accéder aux fichiers sur le stockage en nuage AWS S3 | https://pypi.org/project/boto3/ |
+| py-eodms-dds | Utilisé pour l'authentification des utilisateurs SGDOT et la livraison de données | https://github.com/eodms-sgdot/py-eodms-dds/ |
 
-Des informations supplémentaires au sujet  projet Jupyter et de  l’utilisation des notebooks computationnels dans JupyterLab sont disponibles à l’adresse suivante: https://jupyterlab.readthedocs.io/en/latest/
+Des informations supplémentaires au sujet  projet Jupyter et de  l'utilisation des notebooks computationnels dans JupyterLab sont disponibles à l'adresse suivante: https://jupyterlab.readthedocs.io/en/latest/
 
 ## Installation
 
